@@ -1,3 +1,6 @@
+// 使用HashMap 达到搜索为常数级的复杂度
+// 使用HashMap 也可以对多组进行O(n)级的查询
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map map = new HashMap<Integer, Integer>();
