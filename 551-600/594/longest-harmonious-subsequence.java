@@ -1,3 +1,5 @@
+// map 循环一遍， O(n)
+
 class Solution {
     public int findLHS(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
