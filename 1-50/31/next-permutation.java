@@ -30,6 +30,8 @@ class Solution {
     }
 }
 
+// 关于对字典序的理解，题目好像并不是组合为一个大数的字典序排序
+
 /*class Solution {
     public void nextPermutation(int[] nums) {
         for(int i = nums.length - 1; i > 0; --i) {
