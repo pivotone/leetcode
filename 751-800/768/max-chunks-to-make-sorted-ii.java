@@ -1,3 +1,5 @@
+// 当当前最大值小于之后最小值时，结果加1，如果不满足这种情况但是此时已经是数组末尾，结果加1。
+
 class Solution {
     public int maxChunksToSorted(int[] arr) {
         int[] maxNumber = new int[arr.length];
